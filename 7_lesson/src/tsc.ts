@@ -50,4 +50,7 @@ class Human {
 }
 let human = new Human("Vasya", 40, true, 100.9, [new Human("Petya", 10, false, 0, []), new Human("Kolya", 15, false, 0, [])]);
 human.sayHello();
-console.log(human.toString());
+
+console.log(human);
+console.log(human.name);
+
