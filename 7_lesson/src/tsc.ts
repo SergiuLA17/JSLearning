@@ -52,5 +52,5 @@ let human = new Human("Vasya", 40, true, 100.9, [new Human("Petya", 10, false, 0
 human.sayHello();
 
 console.log(human);
-console.log(human.name);
+human.toString();
 
