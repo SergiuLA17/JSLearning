@@ -2,3 +2,4 @@ tsc -w indicam unde se vor salva fisierele compilate
 tsc -t indica ce versiune js se va compilate
 tsc --removeComments se streg comentariile din fisierul compilate
 tsc sc/app.ts --outDir dist
+switch to test branch
