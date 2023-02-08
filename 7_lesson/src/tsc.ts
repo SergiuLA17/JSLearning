@@ -15,3 +15,4 @@ class Human{
 let human = new Human('John', 25);
 human.sayHello();
 console.log(human);
+console.log(human.name);
