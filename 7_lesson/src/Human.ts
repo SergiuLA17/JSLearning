@@ -1,4 +1,6 @@
-class Human {
+
+
+export class Human implements iHuman {
     name: string;
     age: number;
     work: boolean;
@@ -23,11 +25,8 @@ class Human {
         this.age = age;
     }
 
-    sayHello() {
-        console.log(`Hello, my name is ${this.name}`);
-    }
 
-    toString(): void {
+    speak(): void {
         console.log('My name is ' + this.name);
         console.log("I'm " + this.age);
         if(this.work){
@@ -48,9 +47,5 @@ class Human {
         }
 }
 }
-let human = new Human("Vasya", 40, true, 100.9, [new Human("Petya", 10, false, 0, []), new Human("Kolya", 15, false, 0, [])]);
-human.sayHello();
 
-console.log(human);
-human.toString();
 

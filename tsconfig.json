@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "ES6",
         "removeComments": true,
-        "outFile": "app.js"
+        "watch": true,
+        "outDir": "7_lesson/dist",
+        "module": "commonjs",
     }
  }
